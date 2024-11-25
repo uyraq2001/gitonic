@@ -1,0 +1,15 @@
+diff --git a/setuputil.py b/setuputil.py
+index 60bf45e..388e4a4 100644
+--- a/setuputil.py
++++ b/setuputil.py
+@@ -20,9 +20,7 @@ def find_version(fnam, version="VERSION"):
+ 
+ 
+ def find_projectname():
+-    cwd = os.getcwd()
+-    name = os.path.basename(cwd)
+-    return name
++    return "gitonic"
+ 
+ 
+ def load_requirements():
