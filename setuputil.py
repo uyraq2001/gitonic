@@ -20,9 +20,7 @@ def find_version(fnam, version="VERSION"):
 
 
 def find_projectname():
-    cwd = os.getcwd()
-    name = os.path.basename(cwd)
-    return name
+    return "gitonic"
 
 
 def load_requirements():
