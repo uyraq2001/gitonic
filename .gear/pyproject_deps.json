@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "metadata": {
+      "deps": [
+        "autopep8; extra == \"default\"",
+        "autopep8; extra == \"pep08\"",
+        "autopep8; extra == \"pep08-full\"",
+        "black; extra == \"pep08-black\"",
+        "black; extra == \"pep08-full\"",
+        "flake8; extra == \"default\"",
+        "flake8; extra == \"pep08\"",
+        "flake8; extra == \"pep08-black\"",
+        "flake8; extra == \"pep08-full\"",
+        "meld; extra == \"default\"",
+        "meld; extra == \"meld\"",
+        "pycodestyle; extra == \"default\"",
+        "pycodestyle; extra == \"pep08\"",
+        "pycodestyle; extra == \"pep08-black\"",
+        "pycodestyle; extra == \"pep08-full\"",
+        "pytkfaicons",
+        "tkinter-tooltip",
+        "yapf; extra == \"pep08-full\""
+      ],
+      "srctype": "metadata"
+    },
+    "pep517": {
+      "srctype": "pep517"
+    },
+    "pep518": {
+      "deps": [
+        "setuptools"
+      ],
+      "srctype": "pep518"
+    }
+  }
+}
